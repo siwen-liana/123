@@ -3,7 +3,7 @@ def init(params: dict):
 
 
 def run(data: dict, func=None) -> bool:
-    if "1" in "objectPath" or "2" in "objectPath":
+    if "objectPath" == "01":
         return True
     return False
 

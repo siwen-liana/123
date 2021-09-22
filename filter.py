@@ -3,7 +3,7 @@ def init(params: dict):
 
 
 def run(data: dict, func=None) -> bool:
-    if data["objectPath"] == "01.psd":
+    if data["objectPath"] == "bike2.jpeg":
         return True
     return False
 
